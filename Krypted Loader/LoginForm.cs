@@ -31,6 +31,29 @@ namespace Krypted_Loader
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRect(0, 0, Width, Height, 7, 7));
+            UpdatesWelcome();
+        }
+        
+        public void UpdatesWelcome()
+        {
+             If (Directory.Exists("CheckFile?.txt")
+             {
+                 MessageBox.Show("Welcome Back", usernameget);
+             }
+             else
+             {
+                 Directory.Create("CheckFile?.txt");
+             }
+             
+             if (Directory.Exits("UpdateCheck?.txt");
+             {
+                 UpdatePopUpNo.Visibilty = true;
+             }
+             else
+             {
+                 UpdatePopUpYes.Visiblity = true;
+             }
+             
         }
 
 
